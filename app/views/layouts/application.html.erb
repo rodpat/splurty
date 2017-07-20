@@ -32,6 +32,23 @@
     <hr/>
     <br class="clear" />
 
-    <%= yield %>
+    <div class="container">
+      <%= yield %>
+    </div>
+    
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <%= link_to "This isn't enough, I need another", "#", class: 'next-quote' %>
+          </div>
+          <div class="col-6 footer-blurb">
+            Proudly created by Rodrigo using HTML, CSS, Bootstrap and Ruby on Rails<br/>
+            <p class="copyright">&copy; 2017</p> 
+          </div>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
