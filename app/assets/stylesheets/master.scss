@@ -69,6 +69,11 @@ h2{
   
 }
 
+h2 span{
+  color: #dddddd;
+  font-family: 'nobileregular', sans-serif;
+}
+
 .next-quote{
   color: #f84342;
   font-family: 'nobilemedium_italic', sans-serif;
@@ -88,4 +93,19 @@ h2{
 
 .about{
   font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media (max-width: 750px)
+{
+  .footer-blurb{
+    text-align: left;
+  }
+}
+
+.modal{
+  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+::selection{
+  background-color: #f84342;  
 }
